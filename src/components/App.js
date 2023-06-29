@@ -1,10 +1,11 @@
 import React from 'react';
-import QuestionsContainer from './QuestionsContainer';
-
+import QuestionsContainer from '../containers/QuestionsContainer';
+import  {QuizContainer}  from '../containers/QuizContainer';
 function App() {
   return (
     <div className="App">
-      <QuestionsContainer />
+      {/* <QuestionsContainer /> */}
+      <QuizContainer />
     </div>
   );
 }

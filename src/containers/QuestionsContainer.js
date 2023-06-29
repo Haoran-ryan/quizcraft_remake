@@ -1,10 +1,10 @@
 import React,{ useState, useEffect } from "react";
-import QuestionsLoader from "../containers/QuestionsLoader";
-import QuestionsForm from "../containers/QuestionsForm";
-import QuestionsList from "./QuestionsList";
-import PlayerData from "../containers/PlayerData";
-import RoleSelector from "./RoleSelector";
-import CreateRoom from "../containers/CreateRoom";
+import QuestionsLoader from "./QuestionsLoader";
+import QuestionsForm from "./QuestionsForm";
+import QuestionsList from "../components/QuestionsList";
+import PlayerData from "./PlayerData";
+import RoleSelector from "../components/RoleSelector";
+import CreateRoom from "./CreateRoom";
 import { WriteDB } from '../utilities/WriteDB'
 
 function QuestionsContainer() {
